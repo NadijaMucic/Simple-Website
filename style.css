@@ -1,0 +1,204 @@
+/*
+	CSS Document: Simple Website
+	Nadija Mucic
+	February 11 2023
+/*
+
+    
+/*Font Imports */
+
+/* font-family: 'Helvetica', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+/* Global Declarations */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #F6F4ED;
+}
+
+body {
+	font-family: 'Questrial', sans-serif;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+li, a, button {
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+/* Header CSS */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5em;
+}
+
+#header-logo {
+	cursor: pointer;
+}
+
+
+#header-logo img {
+    height: 2.5em;
+}
+
+#header-search {
+	display: inline-block;
+}
+
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 1em;
+	padding: 0em 0.5em;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+	color:#0679C6;
+}
+
+.nav-links li a:hover {
+	transition: all 0.3s ease 0s;
+	color:#7BA1D5;
+}
+
+button {
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 0.2em;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	background-color: #0679C6;
+	color:#D4E1F5;
+}
+
+
+button:hover {
+	transition: 0.3s ease-in;
+	background-color:#D4E1F5;
+	color:#0679C6;
+}
+
+/* Hero */
+
+.hero {
+	width: 100%;
+	display: inline-flex;
+	margin-bottom: 7em;
+}
+
+.hero img {
+	float: left;
+	margin: auto 5em;
+	width: 15em
+}
+
+.hero-inner h1 {
+	font-size: 32px;
+	margin-bottom: 1em
+}
+
+.hero-inner p {
+	width: 60%;
+	letter-spacing: 0.03em;
+	margin-bottom: 3em;
+}
+
+.first-character{
+	color:#7BA1D5;
+	font-family: 'Georgia', serif;
+	float: left;
+	font-size: 3em;
+	line-height: 0.8em;
+	padding: 0.1em 0.1em 0;
+}
+
+/* Main */
+
+#main-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: 3em;
+}
+
+.main-heading {
+	font-size: 20px;
+	color:#0679C6;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid 
+}
+
+.main-inner {
+	text-align: center;
+	padding-bottom: 4em;
+	border-bottom: 1px solid 
+}
+
+.main-inner img {
+	margin-bottom: 1em;
+	width: 180px;
+	height: 280px;
+}
+
+.main-inner h4 {
+	margin-bottom: 0.5em;
+	color:#7BA1D5;
+}
+
+.main-inner p {
+	margin: 0.5em;
+	letter-spacing: 0.02em;
+}
+	
+ /* Footer */
+
+.ft-main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center
+}
+
+.ft-block ul li {
+	list-style: none;
+	margin-top: 0.5em;
+}
+
+.ft-block h4 {
+	font-size: 18px;
+}
+
+.form-heading {
+	font-size: 22px;
+	margin-bottom: 0.5em;
+}
+
+.ft-btn {
+	margin-top: 0.8em;
+}
+
+.ft-copyright {
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+
